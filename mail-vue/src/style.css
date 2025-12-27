@@ -16,7 +16,7 @@ html, body {
 
 :deep(.el-input__inner:focus) {
     background-color: transparent !important;
-    border-color: #dcdfe6 !important;
+    border-color: #dcdfe6 !important;/* 边框颜色 */
 }
 
 .el-table thead th {
@@ -107,18 +107,18 @@ button, input, select, textarea {
 }
 
 :root {
-    --el-color-primary: #be8d7c;/* 首页登录颜色 */
-    --el-color-primary-dark-2: #815757;/* 首页登录按下变色 */
-    --el-color-primary-light-3: #f5bda9;/* 首页鼠标移动自动变色 */
+    --el-color-primary: #ae654b;/* 首页登录颜色 */
+    --el-color-primary-dark-2: #6c544a;/* 首页登录按下变色 */
+    --el-color-primary-light-3: #e4ab97;/* 首页鼠标移动自动变色 */
     --el-color-primary-light-5: #f5a9cb;/* ？ 粉*/
     --el-color-primary-light-7: #ee7c44;/* ？橙 */
-    --el-color-primary-light-9: #44ee68;/* ？ 绿*/
+    --el-color-primary-light-9: #f4cabb;/* 权限按钮背景色*/
 
-    --extra-light-fill: #FAFCFF;
-    --light-ill: #F5F7FA;
+    --extra-light-fill: #FAFCFF;/* 白色主题背景颜色*/
+    --light-ill: #F5F7FA;/* 白色主题背景颜色*/
     --light-border: #E4E7ED;
     --header-actions-border: inset 0 -1px 0 0 var(--el-border-color-lighter);
-    --aside-backgound: #001529;
+    --aside-backgound: #290000;/* 白色主题右侧框颜色*/
     --loadding-background: rgba(255, 255, 255, 0.8);
     --dark-border: #CDD0D6;
     --base-fill: #F0F2F5;
@@ -133,7 +133,7 @@ button, input, select, textarea {
     --form-desc-color: #71717a;
     --login-switch-color: #006be6;
     --scrollbar-track-color: #A8ABB2;
-    --base-border-color: #DCDFE6;
+    --base-border-color: #DCDFE6;/* 边款颜色？ */
     --secondary-text-color: #909399;
     --message-block-color: rgba(0, 0, 0, 0);
     --loading-hide-transition: all 200ms;
