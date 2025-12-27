@@ -239,10 +239,43 @@ html[data-theme-to="light"]::view-transition-old(root) {
     height: 40px !important;
     background: linear-gradient(135deg, #ae654b, #4e220a) !important; /* 改成红色渐变 */
     /* 或者纯色：background: #9b59b6 !important; 紫色 */
-    box-shadow: 0 4px 12px rgba(0,0,0,0.15) !important; /* 加阴影更酷 */
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15) !important; /* 加阴影 */
 }
+
 .title {
+    margin: 15px 10px !important;
+    height: 45px !important;
+    border-radius: 6px !important;
+    display: flex !important;
+    position: relative !important;
+    font-size: 16px !important;
+    font-weight: 700 !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 5px !important;
+    color: #fff !important;
+    background: linear-gradient(135deg, #ae654b, #4e220a) !important;  /* 渐变 */
+    transition: all .3s ease !important;
+    max-width: 240px !important;
+    padding: 0 10px !important;
+}
 
-    background: linear-gradient(135deg, #ae654b, #4e220a) !important;
 
+.email-row .title {
+    margin: 0 !important;
+    height: auto !important;
+    border-radius: 0 !important;
+    display: grid !important;                   /* 恢复网格布局 */
+    position: static !important;
+    font-size: inherit !important;
+    font-weight: normal !important;
+    align-items: inherit !important;
+    justify-content: inherit !important;
+    gap: 0 !important;
+    color: var(--el-text-color-primary) !important;  /* 正常文字颜色 */
+    background: none !important;                    /* 无背景 */
+    max-width: none !important;
+    padding: 0 !important;
+    /* 恢复原来的网格（发件人 + 主题） */
+    grid-template-columns: 240px 1fr !important;
 }
