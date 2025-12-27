@@ -16,7 +16,7 @@ html, body {
 
 :deep(.el-input__inner:focus) {
     background-color: transparent !important;
-    border-color: #dcdfe6 !important;/* 边框颜色 */
+    border-color: #e6e0dc !important;/* 边框颜色 */
 }
 
 .el-table thead th {
@@ -133,7 +133,7 @@ button, input, select, textarea {
     --form-desc-color: #71717a;
     --login-switch-color: #006be6;
     --scrollbar-track-color: #A8ABB2;
-    --base-border-color: #DCDFE6;/* 边款颜色？ */
+    --base-border-color: #E6E0dC;/* 边款颜色？ */
     --secondary-text-color: #909399;
     --message-block-color: rgba(0, 0, 0, 0);
     --loading-hide-transition: all 200ms;
