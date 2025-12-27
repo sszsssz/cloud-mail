@@ -237,7 +237,12 @@ html[data-theme-to="light"]::view-transition-old(root) {
 .writer-box .writer {
     width: 40px !important;           /* 改大小 */
     height: 40px !important;
-    background: linear-gradient(135deg, #ff6b6b, #ee5a52) !important; /* 改成红色渐变 */
+    background: linear-gradient(135deg, #ae654b, #4e220a) !important; /* 改成红色渐变 */
     /* 或者纯色：background: #9b59b6 !important; 紫色 */
     box-shadow: 0 4px 12px rgba(0,0,0,0.15) !important; /* 加阴影更酷 */
+}
+.title {
+
+    background: linear-gradient(135deg, #ae654b, #4e220a) !important;
+
 }
